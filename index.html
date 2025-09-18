@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сезонная акция от Pepsi</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <img src="./images/logo-pepsi.svg" alt="Pepsi логотип" class="logo">
+            <nav>
+                <span class="promo">Акция</span>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__container">
+
+            <section class="promo-block">
+                <!-- <div class="img-container"> -->
+                <h1 class="title">Сезонная акция <br>от pepsi!</h1>
+                <img src="./images/image-pepsi.png" alt="Банка Pepsi" class="img">
+                <!-- </div> -->
+                <p class="text">В течение двух недель каждый, кто зайдет на эту страницу и примет участие в нашем
+                    коротком опросе,
+                    может получить месячный запас Pepsi совершенно бесплатно! Ответьте на несколько вопросов и получите
+                    свой заслуженный подарочный набор.</p>
+            </section>
+
+            <section class="slider">
+                <div class="steps">
+                    <span class="step active">1</span>
+                    <span class="step">2</span>
+                    <span class="step">3</span>
+                    <span class="step">4</span>
+                </div>
+
+                <div class="slides">
+                    <div class="slide active" data-step="1">
+                        <p class="question">Как часто ты пьешь Pepsi?</p>
+                        <div class="answer-block">
+                            <button class="btn-answer">Почти каждый день</button>
+                            <button class="btn-answer">Несколько раз в неделю</button>
+                            <button class="btn-answer">Редко</button>
+                        </div>
+                    </div>
+
+                    <div class="slide" data-step="2">
+                        <p class="question">Где ты чаще всего пьешь Pepsi?</p>
+                        <div class="answer-block">
+                            <button class="btn-answer">дома</button>
+                            <button class="btn-answer">в кафе / ресторане</button>
+                            <button class="btn-answer">в пути</button>
+                        </div>
+                    </div>
+
+                    <div class="slide" data-step="3">
+                        <p class="question">В каком формате ты предпочитаешь пить Pepsi?</p>
+                        <div class="answer-block">
+                            <button class="btn-answer">банка</button>
+                            <button class="btn-answer">пластиковая бутылка</button>
+                            <button class="btn-answer">стеклянная бутылка</button>
+                        </div>
+                    </div>
+
+                    <div class="slide" data-step="4">
+                        <p class="question">Почему ты выбираешь Pepsi?</p>
+                        <div class="answer-block">
+                            <button class="btn-answer">любимый бренд</button>
+                            <button class="btn-answer">Лучше, чем конкуренты</button>
+                            <button class="btn-answer">Идеально подходит к еде</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img src="./images/logo.png" alt="Pepsi логоти" class="logo">
+            <div class="social">
+                <a href="#" aria-label="Facebook"><img src="./images/icon-facebook.svg" alt=""></a>
+                <a href="#" aria-label="Instagram"><img src="./images/icon-instagram.svg" alt=""></a>
+                <a href="#" aria-label="Youtube"><img src="./images/icon-youtube.svg" alt=""></a>
+            </div>
+            <p class="text">© 2025 Pepsico, Inc.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
